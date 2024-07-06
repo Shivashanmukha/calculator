@@ -1,0 +1,30 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+}
+
+body{
+    background-image: url('./Asserts/image.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.head{
+    color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-control{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+.result-display{
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+    box-shadow: 1px;
+}
